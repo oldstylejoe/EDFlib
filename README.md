@@ -51,7 +51,7 @@ will show the header and first 200 samples of the "noise" signal:
 
 ## License
 
-Copyright (c) 2009, 2010, 2011, 2013, 2014, 2015 Teunis van Beelen
+Copyright (c) 2009, 2010, 2011, 2013, 2014, 2015, 2016, 2017 Teunis van Beelen
 All rights reserved.
 
 email: teuniz@gmail.com
