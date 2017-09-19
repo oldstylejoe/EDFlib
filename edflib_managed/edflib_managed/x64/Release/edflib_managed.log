@@ -1,0 +1,47 @@
+﻿  edflib.cpp
+..\..\edflib.cpp(595): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\edflib.cpp(880): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+..\..\edflib.cpp(1064): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+..\..\edflib.cpp(1391): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+..\..\edflib.cpp(1392): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+..\..\edflib.cpp(1393): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+..\..\edflib.cpp(1474): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+..\..\edflib.cpp(1475): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+..\..\edflib.cpp(1476): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+..\..\edflib.cpp(1478): warning C4244: '=': conversion from 'double' to '__int64', possible loss of data
+..\..\edflib.cpp(1479): warning C4244: '+=': conversion from 'double' to '__int64', possible loss of data
+..\..\edflib.cpp(1480): warning C4244: '+=': conversion from 'double' to '__int64', possible loss of data
+..\..\edflib.cpp(1506): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+..\..\edflib.cpp(1547): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+..\..\edflib.cpp(1629): warning C4244: '=': conversion from 'double' to '__int64', possible loss of data
+..\..\edflib.cpp(1925): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+..\..\edflib.cpp(2007): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+..\..\edflib.cpp(2137): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+..\..\edflib.cpp(2451): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+..\..\edflib.cpp(2588): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\edflib.cpp(2635): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\edflib.cpp(2856): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+..\..\edflib.cpp(3199): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\edflib.cpp(3227): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\edflib.cpp(3261): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\edflib.cpp(4513): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+..\..\edflib.cpp(4651): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+..\..\edflib.cpp(4794): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\edflib.cpp(4853): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+..\..\edflib.cpp(4879): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\edflib.cpp(4910): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\edflib.cpp(4969): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\edflib.cpp(4998): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\edflib.cpp(5027): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\edflib.cpp(5056): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\edflib.cpp(5113): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\edflib.cpp(5137): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\edflib.cpp(5157): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\edflib.cpp(5240): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\edflib.cpp(6117): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+..\..\edflib.cpp(6144): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\edflib.cpp(6367): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+..\..\edflib.cpp(6500): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+  .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+  LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+  edflib_managed.vcxproj -> C:\Users\MRI2\Source\Repos\EDFlib\edflib_managed\x64\Release\edflib_managed.dll

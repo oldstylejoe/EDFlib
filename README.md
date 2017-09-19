@@ -1,3 +1,7 @@
+# Managed Adaptation of EDFlib
+
+This is a managed .dll build of edflib that can be used on a windows platform. E.g., my goal is to use it from Unity.
+
 # EDFlib
 
 EDFlib is a programming library for C/C++ for reading and writing EDF+ and BDF+ files.
@@ -7,46 +11,11 @@ EDF means European Data Format. BDF is the 24-bits version of EDF.
 
 ## Usage
 
-The library consists of only two files: `edflib.h` and `edflib.c`.
+Build with VS 2017 (or probably any other reasonable alternative on win) with a .dll target.
 
-In order to use EDFlib, copy these two files to your project.
-Include the file `edflib.h` in every source file from where you want to access the library.
-
-Don't forget to tell your compiler that it must compile and link `edflib.c` (add it to
-your makefile or buildscript). `edflib.c` needs to be compiled with the options
-`-D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE`.
-
-For example:
-
-`gcc -Wall -Wextra -Wshadow -Wformat-nonliteral -Wformat-security -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE test_edflib.c edflib.c -lm -o test_edflib`
-
-Compilation has been tested using GCC on Linux, Mingw-w64 on Windows, and LLVM GCC on OS X (Yosemite).
-
-To understand how to use the library, read the comments in `edflib.h`.
-
+Include the dll in your managed application (e.g. Unity) and have fun.
 
 ## Examples
-
-To build the examples: `make`
-
-Each "generator" example creates an EDF+ or BDF+ file with sample signals.
-
-`test_generator` shows how to use most of the functions provided by the library and generates an
-EDF+ or BDF+ testfile with several sample signals.
-
-`sine_generator` creates a BDF+ file containing the signal "sine", a 1 Hz sinoidal waveform with a
-sample frequency of 2048 Hz.
-
-`sweep_generator` creates a linear or logarithmic sweep through a range of frequencies in EDF+ or
-BDF+ format.
-
-Use EDFbrowser to view these files: http://www.teuniz.net/edfbrowser/
-
-`test_edflib <filename> <signalnumber>` will print the properties of the EDF/BDF header, the
-annotations, and the values of 200 samples of the chosen signal. For example, running
-`test_generator` will produce the file `test_generator.edf`. Running `test_edflib test_generator.edf 6`
-will show the header and first 200 samples of the "noise" signal:
-`75  6  27  77  37  30  35  96  62  69  34  15  51  56  69  68  80  45 ...`
 
 
 ## License

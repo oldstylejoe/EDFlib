@@ -89,9 +89,9 @@
 
 
 
-#ifdef __cplusplus
-extern "C" {
-#endif
+//#ifdef __cplusplus
+//extern "C" {
+//#endif
 
 
 
@@ -613,9 +613,9 @@ int edf_set_number_of_annotation_signals(int handle, int annot_signals);
 /* Minimum is 1, maximum is 64 */
 
 
-#ifdef __cplusplus
-} /* extern "C" */
-#endif
+//#ifdef __cplusplus
+//} /* extern "C" */
+//#endif
 
 #endif
 
